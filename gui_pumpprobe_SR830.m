@@ -1,4 +1,4 @@
-function gui1_pumpprobe_SR830
+function gui_pumpprobe_SR830
 % basic pump-probe GUI
 global deviceDL delay folder filename measurement deviceLIA_AminusB measurementPrev f
 delay = struct('start', 470,'stop', 440, 'step', 0.1, 'NofScans', 1, 'currScan', 1, 'AccCount', 1, 'WaitTime', 200);
