@@ -5,7 +5,7 @@ function [device, props] = SR830_init(device_id, varargin)
 %use fprintf(s,['m' mode]) to write
 %and fscanf(s) to read the SR830
 
-device = visadevlist(device_id); 
+device = visadev(device_id); 
 % configureTerminator(device,13)
 %=====open the serial port=================================
 %try
